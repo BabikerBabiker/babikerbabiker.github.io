@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Babiker's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="App">
+    <header>
+      <h1>Babiker's Portfolio</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about" onclick="smoothScroll('about')">About</a>
+          </li>
+          <li>
+            <a href="#coursework" onclick="smoothScroll('coursework')">Coursework</a>
+          </li>
+          <li>
+            <a href="#projects" onclick="smoothScroll('projects')">Projects</a>
+          </li>
+          <li>
+            <a href="#contact" onclick="smoothScroll('contact')">Contact</a>
+          </li>
+          <li class="social-icons">
+            <a href="https://www.linkedin.com/in/babiker-babiker-15915b267/" target="_blank" rel="noopener noreferrer">
+              <img src="./assets/linkedin.png" alt="LinkedIn" class="icon" />
+            </a>
+            <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
+              <img src="./assets/github.png" alt="GitHub" class="icon" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Through my academic and personal experiences, I've showcased my ability to persevere through adversity.
+          Embracing these hardships has fortified my determination to succeed academically and in my personal life.
+          I continue to stay dedicated to my craft while on this rigorous journey. I continue to express passion for
+          programming; I've demonstrated my ability to ensure my work is up to standard. As many more challenges are
+          on the horizon, my ability to persevere will continue to propel me past them.
+        </p>
+        <a href="./assets/Resume.pdf" download>
+          <button class="resume-button">Download Resume</button>
+        </a>
+      </section>
+      <section id="coursework" class="about">
+        <h2>Applicable Coursework</h2>
+        <table id="coursework-table">
+          <thead>
+            <tr>
+              <th>Course Code</th>
+              <th>Course Title</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>CSCI-1</td>
+              <td>Problem-Solving and Programming with C++</td>
+              <td>Completed Spring 2023</td>
+            </tr>
+            <tr>
+              <td>CSCI-2</td>
+              <td>Introduction to Data Structures</td>
+              <td>Completed Fall 2023</td>
+            </tr>
+            <tr>
+              <td>CSCI-3</td>
+              <td>Computer Programming in Java</td>
+              <td>Completed Winter 2024</td>
+            </tr>
+            <tr>
+              <td>Learn SQL</td>
+              <td>Managing &amp; Analyzing Large Datasets</td>
+              <td>Completed Spring 2024</td>
+            </tr>
+            <tr>
+              <td>CSCI-30</td>
+              <td>Advanced Programming in C++</td>
+              <td>Completed Spring 2024</td>
+            </tr>
+            <tr>
+              <td>CS-41</td>
+              <td>Linux Workstation Administration</td>
+              <td>In Progress Summer 2024</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="projects" class="projects">
+        <h2 class="projects-header">Projects</h2>
+        <br>
+        <p class="projects-desc">Hover/Click the thumbnails to expand into details & links.</p>
+        <br>
+        <div class="project-cards">
+          <div class="project-card">
+            <img src="./assets/IceMan.png" alt="IceMan" class="project-thumbnail" />
+            <div class="project-details">
+              <h3>IceMan</h3>
+              <p>Interactive game using OpenGL that allows user to mine ice, find oil, and escape protestors as its main objectives</p>
+              <div class="project-tags">
+                <span>C++</span>
+                <span>OpenGL</span>
+                <span>OOP</span>
+                <span>Visual Studio</span>
+              </div>
+              <div class="project-links">
+                <a href="https://youtu.be/5oswDgrJkNk" target="_blank" rel="noopener noreferrer">Video</a>
+                <a href="https://github.com/BabikerBabiker/IceMan-Project" target="_blank" rel="noopener noreferrer">Repo</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="./assets/FinanceFirst.png" alt="FinanceFirst" class="project-thumbnail" />
+            <div class="project-details">
+              <h3>FinanceFirst (On-Going)</h3>
+              <p>Banking app which allows for deposits, withdraws, and transferring of money. Uses an SQL database to effectively & securely store data.</p>
+              <div class="project-tags">
+                <span>C++</span>
+                <span>SQLite 3</span>
+                <span>CMake</span>
+                <span>VS Code</span>
+              </div>
+              <div class="project-links">
+                <a href="https://example.com/demo" target="_blank" rel="noopener noreferrer">Video</a>
+                <a href="https://github.com/BabikerBabiker/FinanceFirst" target="_blank" rel="noopener noreferrer">Repo</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="./assets/CurrencyXChange.png" alt="Currency X Change" class="project-thumbnail" />
+            <div class="project-details">
+              <h3>Currency X Change</h3>
+              <p>Console-Based application that allows support for over 150 currencies and their conversions. Simple menu to navigate.</p>
+              <div class="project-tags">
+                <span>Java</span>
+                <span>API</span>
+                <span>VS Code</span>
+                <span>Windows 11</span>
+              </div>
+              <div class="project-links">
+                <a href="https://youtu.be/CxL9B_iu-oI" target="_blank" rel="noopener noreferrer">Video</a>
+                <a href="https://github.com/BabikerBabiker/Currency-X-Change" target="_blank" rel="noopener noreferrer">Repo</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="./assets/ValidCPP.png" alt="ValidCPP" class="project-thumbnail" />
+            <div class="project-details">
+              <h3>ValidCPP</h3>
+              <p>A C++ syntax validation program that checks a .cpp file for balanced quotes, brackets, parenthesis etc.</p>
+              <div class="project-tags">
+                <span>C++</span>
+                <span>File: I/O</span>
+                <span>CMake</span>
+                <span>Visual Studio</span>
+              </div>
+              <div class="project-links">
+                <a href="https://youtu.be/wvVoYRpf4lU" target="_blank" rel="noopener noreferrer">Video</a>
+                <a href="https://github.com/babikerbabiker/validcpp" target="_blank" rel="noopener noreferrer">Repo</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="./assets/GuessQuest.jpg" alt="GuessQuest" class="project-thumbnail" />
+            <div class="project-details">
+              <h3>GuessQuest</h3>
+              <p>Guess that target number! User starts off with $1000 and loses $100 per wrong guess. Try to guess in the least amount of guesses as possible!</p>
+              <div class="project-tags">
+                <span>C++</span>
+                <span>OOP</span>
+                <span>Visual Studio</span>
+                <span>Windows 11</span>
+              </div>
+              <div class="project-links">
+                <a href="https://youtu.be/9wJAS5VMF90" target="_blank" rel="noopener noreferrer">Video</a>
+                <a href="https://github.com/BabikerBabiker/GuessQuest" target="_blank" rel="noopener noreferrer">Repo</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="./assets/Rainfall.png" alt="Rainfall Calculator" class="project-thumbnail" />
+            <div class="project-details">
+              <h3>Rainfall Calculator</h3>
+              <p>Recieves user reported rainfall for each month and performs various tasks such as sorting, average, and total</p>
+              <div class="project-tags">
+                <span>Java</span>
+                <span>Sorting</span>
+                <span>VS Code</span>
+                <span>Windows 11</span>
+              </div>
+              <div class="project-links">
+                <a href="https://youtu.be/_xVGM1L4liY" target="_blank" rel="noopener noreferrer">Video</a>
+                <a href="https://github.com/BabikerBabiker/Rainfall-Calculator" target="_blank" rel="noopener noreferrer">Repo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-form">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="2d6756e5-eb41-4544-9e97-a67a0c4dca67" />
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="2" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Babiker's Portfolio. All rights reserved.</p>
+      <img src="./assets/Signature.png" alt="Signature" class="signature" />
+    </footer>
+  </div>
+
+  <script>
+    function smoothScroll(id) {
+      const section = document.getElementById(id);
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  </script>
+</body>
+</html>
