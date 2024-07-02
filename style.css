@@ -297,7 +297,7 @@ footer {
 }
 
 .contact-form .form-group textarea {
-  resize: none;
+  resize: vertical;
 }
 
 .about table {
