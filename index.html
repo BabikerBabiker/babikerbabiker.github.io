@@ -13,16 +13,16 @@
         <nav>
           <ul>
             <li>
-              <a href="#about" onclick="smoothScroll('about')">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="#coursework" onclick="smoothScroll('coursework')">Coursework</a>
+              <a href="#coursework">Coursework</a>
             </li>
             <li>
-              <a href="#projects" onclick="smoothScroll('projects')">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <a href="#contact" onclick="smoothScroll('contact')">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
             <li class="social-icons">
               <a href="https://www.linkedin.com/in/babiker-babiker-15915b267/" target="_blank" rel="noopener noreferrer">
@@ -264,15 +264,6 @@
         <img src="./assets/Signature.png" alt="Signature" class="signature" />
       </footer>
     </div>
-    <script>
-      function smoothScroll(id) {
-        const section = document.getElementById(id);
-        if (section) {
-          section.scrollIntoView({
-            behavior: 'smooth'
-          });
-        }
-      }
-    </script>
+    <script src='script.js'></script>
   </body>
 </html>
