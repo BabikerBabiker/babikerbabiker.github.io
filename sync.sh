@@ -19,4 +19,4 @@ fi
 
 git push https://github.com/babikerbabiker/babikerbabiker.github.io.git main
 
-echo "Successfully made changes live."
+echo "Successful! Changes will be live shortly."
