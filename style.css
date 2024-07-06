@@ -234,6 +234,16 @@ footer {
   background-color: #555555;
 }
 
+.project-links a.video-link {
+  background-color: #4CAF50;
+}
+
+.project-links a.repo-link {
+  background-color: #2196F3;
+}
+
+
+
 .project-links a:hover {
   background-color: #777777;
 }
