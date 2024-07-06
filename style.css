@@ -386,6 +386,27 @@ footer {
     display: block;
   }
 
+  .project-links a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #555555; 
+    transition: background-color 0.3s;
+  }
+
+  .project-links a.video-link {
+    background-color: #4CAF50 !important; 
+  }
+
+  .project-links a.repo-link {
+    background-color: #2196F3 !important; 
+  }
+
+  .project-links a:hover {
+    background-color: #777777; 
+  }
+
   footer {
     padding: 0.3rem;
   }
