@@ -298,6 +298,8 @@ footer {
 
 .contact-form .form-group textarea {
   resize: vertical;
+  min-height: 100px; /* Set the minimum height */
+  min-width: 100%; /* Ensure it doesn't become smaller than the container */
 }
 
 .about table {
