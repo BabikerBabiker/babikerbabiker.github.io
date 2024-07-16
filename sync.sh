@@ -1,4 +1,4 @@
-cd ~/Desktop/GitHub/Portfolio
+cd C:/Users/bbabi/OneDrive/Desktop/GitHub/Portfolio
 
 git fetch origin
 git merge origin/main

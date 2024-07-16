@@ -4,6 +4,26 @@
   box-sizing: border-box;
 }
 
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.section {
+  animation: fadeIn 2s ease-in;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 ::-webkit-scrollbar {
   width: 0;
   background: transparent;
