@@ -367,8 +367,7 @@ footer {
   }
 
   .linkedin-embed iframe {
-    width: 100%;
-    height: 930px;
+    padding-bottom: 75%;
   }
   
   .container {
