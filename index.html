@@ -187,30 +187,32 @@
 							</script>
 					</section>
 
-				<!-- Footer -->
 					<section id="footer">
 						<div class="inner">
 							<h2 class="major">Contact Me</h2>
 							<p>Fill out the form below to get in contact with me.</p>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+							<div class="contact-form">
+								<form action="https://api.web3forms.com/submit" method="POST">
+									<input type="hidden" name="access_key" value="2d6756e5-eb41-4544-9e97-a67a0c4dca67" />
+									<div class="fields">
+										<div class="field">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" required />
+										</div>
+										<div class="field">
+											<label for="email">Email</label>
+											<input type="email" name="email" id="email" required />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4" required></textarea>
+										</div>
 									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="send-message-button" /></li>
+									</ul>
+								</form>
+							</div>
 							<ul class="contact">
 								<li class="icon solid fa-envelope"><a href="mailto:bbabiker09@gmail.com">bbabiker09@gmail.com</a></li>
 								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/babiker-babiker-15915b267">linkedin.com/in/babiker-babiker-15915b267/</a></li>
@@ -223,6 +225,7 @@
 							<img src="./merged/Signature.png" alt="Signature" class="signature" />
 						</div>
 					</section>
+
 
 			</div>
 

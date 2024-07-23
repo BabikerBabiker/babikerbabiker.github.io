@@ -4191,3 +4191,12 @@ input, select, textarea {
 		max-width: 80%;
 		border: none;
 	}
+
+	.send-message-button {
+		margin-bottom: 20px;
+	}
+
+	.contact-form textarea {
+		resize: vertical;
+		min-height: 100px;
+	}
