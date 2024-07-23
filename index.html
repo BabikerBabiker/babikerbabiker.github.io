@@ -1,264 +1,236 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Babiker's Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="App">
-      <header>
-        <h1>Babiker's Portfolio</h1>
-        <nav>
-          <ul>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#coursework">Coursework</a>
-            </li>
-            <li>
-              <a href="#projects">Projects</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-            <li class="social-icons">
-              <a href="https://www.linkedin.com/in/babiker-babiker-15915b267/" target="_blank" rel="noopener noreferrer">
-                <img src="./assets/linkedin.png" alt="LinkedIn" class="icon" />
-              </a>
-              <a href="https://github.com/BabikerBabiker" target="_blank" rel="noopener noreferrer">
-                <img src="./assets/github.png" alt="GitHub" class="icon" />
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main class="container">
-        <section id="about">
-          <h2>About Me</h2>
-          <p> Through my academic and personal experiences, I've showcased my ability to persevere through adversity. Embracing these hardships has fortified my determination to succeed academically and in my personal life. I continue to stay dedicated to my craft while on this rigorous journey. I continue to express passion for programming; I've demonstrated my ability to ensure my work is up to standard. As many more challenges are on the horizon, my ability to persevere will continue to propel me past them. </p>
-          <div class="linkedin-embed">
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7219984426649231360" height="900" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-          </div>
-        </section>
-        <section id="coursework" class="about">
-          <h2>Applicable Coursework</h2>
-          <table id="coursework-table">
-            <thead>
-              <tr>
-                <th>Course Code</th>
-                <th>Course Title</th>
-                <th>Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>CSCI-1</td>
-                <td>Problem-Solving and Programming with C++</td>
-                <td>Completed Spring 2023</td>
-              </tr>
-              <tr>
-                <td>CSCI-2</td>
-                <td>Introduction to Data Structures</td>
-                <td>Completed Fall 2023</td>
-              </tr>
-              <tr>
-                <td>CSCI-3</td>
-                <td>Computer Programming in Java</td>
-                <td>Completed Winter 2024</td>
-              </tr>
-              <tr>
-                <td>Learn SQL</td>
-                <td>Managing &amp; Analyzing Large Datasets</td>
-                <td>Completed Spring 2024</td>
-              </tr>
-              <tr>
-                <td>CSCI-30</td>
-                <td>Advanced Programming in C++</td>
-                <td>Completed Spring 2024</td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
-        <section id="projects" class="projects ">
-          <h2 class="projects-header">Projects</h2>
-          <br>
-          <p class="projects-desc">Hover/Click the thumbnails to expand into details & links.</p>
-          <br>
-          <div class="project-cards">
-            <div class="project-card">
-              <img src="./assets/IceMan.png" alt="IceMan" class="project-thumbnail" />
-              <div class="project-details">
-                <h3>IceMan</h3>
-                <p>Interactive game using OpenGL that allows user to mine ice, find oil, and escape protestors as its main objectives.</p>
-                <div class="project-tags">
-                  <span>C++</span>
-                  <span>OpenGL</span>
-                  <span>OOP</span>
-                  <span>Git</span>
-                  <span>VS 2022</span>
-                </div>
-                <div class="project-links">
-                  <a href="https://youtu.be/5oswDgrJkNk" target="_blank" rel="noopener noreferrer">Video</a>
-                  <a href="https://github.com/BabikerBabiker/IceMan-Project" target="_blank" rel="noopener noreferrer">Repo</a>
-                </div>
-              </div>
-            </div>
-            <div class="project-card">
-              <img src="./assets/FinanceFirst.png" alt="FinanceFirst" class="project-thumbnail" />
-              <div class="project-details">
-                <h3>FinanceFirst (On-Going)</h3>
-                <p>Banking app which allows for deposits, withdraws, and transferring of money. Uses an SQLite 3 database to effectively & securely store data.</p>
-                <div class="project-tags">
-                  <span>C++</span>
-                  <span>SQLite 3</span>
-                  <span>GTK</span>
-                  <span>VS Code</span>
-                </div>
-                <div class="project-links">
-                  <a href="" class="disabled-link" target="_blank" rel="noopener noreferrer">Video</a>
-                  <a href="https://github.com/BabikerBabiker/FinanceFirst" target="_blank" rel="noopener noreferrer">Repo</a>
-                </div>
-              </div>
-            </div>
-            <div class="project-card">
-              <img src="./assets/CurrencyXChange.png" alt="Currency X Change" class="project-thumbnail" />
-              <div class="project-details">
-                <h3>Currency X Change</h3>
-                <p>Console-Based application that allows support for over 150 currencies and their conversions. Simple menu to navigate.</p>
-                <div class="project-tags">
-                  <span>Java</span>
-                  <span>API</span>
-                  <span>CLI</span>
-                  <span>VS Code</span>
-                  <span>Windows 11</span>
-                </div>
-                <div class="project-links">
-                  <a href="https://youtu.be/CxL9B_iu-oI" target="_blank" rel="noopener noreferrer">Video</a>
-                  <a href="https://github.com/BabikerBabiker/Currency-X-Change" target="_blank" rel="noopener noreferrer">Repo</a>
-                </div>
-              </div>
-            </div>
-            <div class="project-card">
-              <img src="./assets/ValidCPP.png" alt="ValidCPP" class="project-thumbnail" />
-              <div class="project-details">
-                <h3>ValidCPP</h3>
-                <p>A C++ syntax validation program that checks a .cpp file for balanced quotes, brackets, parenthesis etc.</p>
-                <div class="project-tags">
-                  <span>C++</span>
-                  <span>File: I/O</span>
-                  <span>CLI</span>
-                  <span>CMake</span>
-                  <span>VS 2022</span>
-                </div>
-                <div class="project-links">
-                  <a href="https://youtu.be/wvVoYRpf4lU" target="_blank" rel="noopener noreferrer">Video</a>
-                  <a href="https://github.com/babikerbabiker/validcpp" target="_blank" rel="noopener noreferrer">Repo</a>
-                </div>
-              </div>
-            </div>
-            <div class="project-card">
-              <img src="./assets/martiandb.png" alt="Martian Database" class="project-thumbnail" />
-              <div class="project-details">
-                <h3>Martian Database</h3>
-                <p>C++ application that manages a database of Martian individuals. Users can add, delete by SSN, and print entries sorted by first name, last name, or SSN.</p>
-                <div class="project-tags">
-                  <span>C++</span>
-                  <span>OOP</span>
-                  <span>File: I/O</span>
-                  <span>CLI</span>
-                  <span>VS 2022</span>
-                </div>
-                <div class="project-links">
-                  <a href="" class="disabled-link" target="_blank" rel="noopener noreferrer">Video</a>
-                  <a href="https://github.com/BabikerBabiker/MartianDB" target="_blank" rel="noopener noreferrer">Repo</a>
-                </div>
-              </div>
-            </div>
-            <div class="project-card">
-              <img src="./assets/wordshuffle.png" alt="WordShuffle" class="project-thumbnail" />
-              <div class="project-details">
-                <h3>WordShuffle</h3>
-                <p>WordShuffle reads a dictionary file, finds anagrams of a user-input string using sorting and permutation algorithms, and displays results via command line.</p>
-                <div class="project-tags">
-                  <span>C++</span>
-                  <span>File: I/O</span>
-                  <span>Sorting</span>
-                  <span>CLI</span>
-                  <span>VS 2022</span>
-                </div>
-                <div class="project-links">
-                  <a href="" class="disabled-link" target="_blank" rel="noopener noreferrer">Video</a>
-                  <a href="https://github.com/BabikerBabiker/WordShuffle" target="_blank" rel="noopener noreferrer">Repo</a>
-                </div>
-              </div>
-            </div>
-            <div class="project-card">
-              <img src="./assets/GuessQuest.jpg" alt="GuessQuest" class="project-thumbnail" />
-              <div class="project-details">
-                <h3>GuessQuest</h3>
-                <p>Guess that target number! User starts off with $1000 and loses $100 per wrong guess. Try to guess in the least amount of guesses as possible!</p>
-                <div class="project-tags">
-                  <span>C++</span>
-                  <span>OOP</span>
-                  <span>CLI</span>
-                  <span>VS 2022</span>
-                  <span>Windows 11</span>
-                </div>
-                <div class="project-links">
-                  <a href="https://youtu.be/9wJAS5VMF90" target="_blank" rel="noopener noreferrer">Video</a>
-                  <a href="https://github.com/BabikerBabiker/GuessQuest" target="_blank" rel="noopener noreferrer">Repo</a>
-                </div>
-              </div>
-            </div>
-            <div class="project-card">
-              <img src="./assets/Rainfall.png" alt="Rainfall Calculator" class="project-thumbnail" />
-              <div class="project-details">
-                <h3>Rainfall Calculator</h3>
-                <p>Receives user-reported rainfall for each month and performs various tasks such as sorting, average, and total.</p>
-                <div class="project-tags">
-                  <span>Java</span>
-                  <span>Sorting</span>
-                  <span>VS Code</span>
-                  <span>Windows 11</span>
-                </div>
-                <div class="project-links">
-                  <a href="https://youtu.be/_xVGM1L4liY" target="_blank" rel="noopener noreferrer">Video</a>
-                  <a href="https://github.com/BabikerBabiker/Rainfall-Calculator" target="_blank" rel="noopener noreferrer">Repo</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="contact" class="contact">
-          <h2>Contact Me</h2>
-          <div class="contact-form">
-            <form action="https://api.web3forms.com/submit" method="POST">
-              <input type="hidden" name="access_key" value="2d6756e5-eb41-4544-9e97-a67a0c4dca67" />
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required />
-              </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required />
-              </div>
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="2" required></textarea>
-              </div>
-              <button type="submit">Send Message</button>
-            </form>
-          </div>
-        </section>
-      </main>
-      <footer>
-        <p>&copy; 2024 Babiker's Portfolio. All rights reserved.</p>
-        <img src="./assets/Signature.png" alt="Signature" class="signature" />
-      </footer>
-    </div>
-    <script src='script.js'></script>
-  </body>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Babiker's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Babiker I. Babiker</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="#one">About</a></li>
+								<li><a href="#two">Education</a></li>
+								<li><a href="#three">Skills</a></li>
+								<li><a href="#four">Projects</a></li>
+								<li><a href="#footer">Contact</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<div class="logo"><span class="icon fa-gem"></span></div>
+							<h2>Babiker I. Babiker</h2>
+							<p>CS Student @ <br>California State University, Fullerton</p>
+							<p>Software Engineering Fellow @ <br>Headstarter AI</p>
+						</div>
+					</section>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+						<section id="one" class="wrapper spotlight style1">
+							<div class="inner">
+								<a href="#" class="image"><img src="merged/Profile Picture.png" alt="" /></a>
+								<div class="content">
+									<h2 class="major">About Me</h2>
+									<p>Through my academic and personal experiences, I've showcased my ability to persevere through adversity. Embracing these hardships has fortified my determination to succeed academically and in my personal life. I continue to stay dedicated to my craft while on this rigorous journey. I continue to express passion for programming; I've demonstrated my ability to ensure my work is up to standard. As many more challenges are on the horizon, my ability to persevere will continue to propel me past them.</p>
+									<a href="https://www.linkedin.com/in/babiker-babiker-15915b267" class="special">LinkedIn</a>
+									<div class="embed-container">
+										<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7219984426649231360" class="linkedin-embed" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!-- Two -->
+							<section id="two" class="wrapper alt spotlight style2">
+								<div class="inner">
+									<a href="#" class="image"><img src="merged/education.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Education</h2>
+										<p><b>California State University, Fullerton | May 2026</b></p>
+										<p>Bachelor of Science: Computer Science</p>
+
+										<p><b>El Camino College | June 2024</b></p>
+										<p>Computer Science Certificate of Achievement</p>
+										<ul>
+											<li>Coursework: Computing in C++, Data Structures, Computing in Java, Advanced C++</li>
+										</ul>
+
+										<p><b>Hawthorne Math & Science Academy</b></p>
+										<p>Certificate of Proficiency: California High School Proficiency Exam</p>
+									</div>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three" class="wrapper spotlight style3">
+								<div class="inner">
+									<a href="#" class="image"><img src="merged/skills.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Skills</h2>
+										<h3 class="major">Programming Languages & Technologies</h3>
+											<p>C++, Java, SQL, HTML, CSS, Python</p>
+										<h3 class="major">Software Development & Tools</h3>
+											<p>Data Structures, Object Oriented Programming, API. Visual Studio, VS Code, Eclipse IDE, GitHub, Git</p>
+										<h3 class="major">Operating Systems & Applications</h3>
+											<p>Windows, Linux, macOS, MS Office, Google Suite</p>
+										<h3 class="major">Languages & Soft Skills</h3>
+											<p>English, Arabic, Spanish, Time Managament, Leadership, Communication, Adaptability</p>
+									</div>
+								</div>
+							</section>
+						<!-- Four -->
+							<section id="four" class="wrapper alt style1">
+								<div class="inner">
+									<h2 class="major">Projects</h2>
+									<p>Below are various projects I've worked on. Feel free to checkout the <u>repository</u> & <u>live demo</u> for each one!</p>
+									<section class="features">
+										<article>
+											<a href="#" class="image"><img src="merged/FinanceFirst.png" alt="" class="project-image"/></a>
+											<h3 class="major">FinanceFirst</h3>
+											<p>Banking app which allows for deposits, withdraws, and transferring of money. Uses an SQLite 3 database to effectively & securely store data.</p>
+											<a href="https://github.com/BabikerBabiker/FinanceFirst" class="special">Repository</a>
+										</article>
+
+										<article>
+											<a href="#" class="image"><img src="merged/IceMan.png" alt="" class="project-image"/></a>
+											<h3 class="major">IceMan</h3>
+											<p>Interactive game using OpenGL that allows user to mine ice, find oil, and escape protestors as its main objectives.</p>
+											<a href="https://github.com/BabikerBabiker/IceMan-Project" class="special">Repository</a>
+											<a href="https://youtu.be/5oswDgrJkNk" class="special">Live Demo</a>
+										</article>
+
+										<article>
+											<a href="#" class="image"><img src="merged/CurrencyXChange.png" alt="" class="project-image"/></a>
+											<h3 class="major">Currency X Change</h3>
+											<p>Console-Based application that allows support for over 150 currencies and their conversions. Simple menu to navigate.</p>
+											<a href="https://github.com/BabikerBabiker/Currency-X-Change" class="special">Repository</a>
+											<a href="https://youtu.be/CxL9B_iu-oI" class="special">Live Demo</a>
+										</article>
+
+										<article>
+											<a href="#" class="image"><img src="merged/ValidCPP.png" alt="" class="project-image"/></a>
+											<h3 class="major">ValidCPP</h3>
+											<p>A C++ syntax validation program that checks a .cpp file for balanced quotes, brackets, parenthesis etc.</p>
+											<a href="https://github.com/babikerbabiker/validcpp" class="special">Repository</a>
+											<a href="https://youtu.be/wvVoYRpf4lU" class="special">Live Demo</a>
+										</article>
+
+										<article class="hidden-project">
+											<a href="#" class="image"><img src="merged/martiandb.png" alt="" class="project-image"/></a>
+											<h3 class="major">Martian Database</h3>
+											<p>C++ application that manages a database of Martian individuals. Users can add, delete by SSN, and print entries sorted by first name, last name, or SSN.</p>
+											<a href="https://github.com/BabikerBabiker/MartianDB" class="special">Repository</a>
+										</article>
+
+										<article class="hidden-project">
+											<a href="#" class="image"><img src="merged/wordshuffle.png" alt="" class="project-image"/></a>
+											<h3 class="major">WordShuffle</h3>
+											<p>WordShuffle reads a dictionary file, finds anagrams of a user-input string using sorting and permutation algorithms, and displays results via command line.</p>
+											<a href="https://github.com/BabikerBabiker/WordShuffle" class="special">Repository</a>
+										</article>
+
+										<article class="hidden-project">
+											<a href="#" class="image"><img src="merged/GuessQuest.jpg" alt="" class="project-image"/></a>
+											<h3 class="major">GuessQuest</h3>
+											<p>Guess that target number! User starts off with $1000 and loses $100 per wrong guess. Try to guess in the least amount of guesses as possible!</p>
+											<a href="https://github.com/BabikerBabiker/GuessQuest" class="special">Repository</a>
+											<a href="https://youtu.be/9wJAS5VMF90" class="special">Live Demo</a>
+										</article>
+
+										<article class="hidden-project">
+											<a href="#" class="image"><img src="merged/Rainfall.png" alt="" class="project-image"/></a>
+											<h3 class="major">Rainfall Calculator</h3>
+											<p>Receives user-reported rainfall for each month and performs various tasks such as sorting, average, and total.</p>
+											<a href="https://github.com/BabikerBabiker/Rainfall-Calculator" class="special">Repository</a>
+											<a href="https://youtu.be/_xVGM1L4liY" class="special">Live Demo</a>
+										</article>
+									</section>
+									<button id="toggle-projects" class="button">Browse All</button>
+								</div>
+							</section>
+							
+							<script>
+								document.getElementById('toggle-projects').addEventListener('click', function(event) {
+									event.preventDefault();
+									let hiddenProjects = document.querySelectorAll('.hidden-project');
+									let isVisible = hiddenProjects[0].style.display === 'block';
+									hiddenProjects.forEach(function(project) {
+										project.style.display = isVisible ? 'none' : 'block';
+									});
+									this.textContent = isVisible ? 'Browse All' : 'Show Less Projects';
+								});
+							</script>
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Contact Me</h2>
+							<p>Fill out the form below to get in contact with me.</p>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li class="icon solid fa-envelope"><a href="mailto:bbabiker09@gmail.com">bbabiker09@gmail.com</a></li>
+								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/babiker-babiker-15915b267">linkedin.com/in/babiker-babiker-15915b267/</a></li>
+								<li class="icon brands fa-github"><a href="https://www.github.com/babikerbabiker">github.com/babikerbabiker</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Babiker I. Babiker's Portfolio</li>
+								<li>All rights reserved.</li>
+							</ul>
+							<img src="./merged/Signature.png" alt="Signature" class="signature" />
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
