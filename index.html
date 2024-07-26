@@ -77,40 +77,25 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
-          <div class="col-md-6">
-
-            <div class="row justify-content-between gy-4">
-              <div class="col-lg-5">
-                <img src="assets/img/Profile Picture.png" class="img-fluid" alt="">
-              </div>
-              <div class="col-lg-7 about-info">
-                <p><strong>Name: </strong> <span>Babiker Babiker</span></p>
-                <p><strong>Email: </strong> <span>bbabiker09@gmail.com</span></p>
-                <p><strong>Phone: </strong> <span>(310) 844-4603</span></p>
-                <button type="submit" class="btn-common"><a href="resume.html">Resume</a></button>
-              </div>
-            </div>
-
-            <div class="skills-content skills-animation">
-
-              <h5>Skills</h5>
-              <div class="progress">
-                <span class="skill"><span><b>Programming Languages</b>: C++, Java, SQL, HTML, CSS, Python</span></span>
-              </div><!-- End Skills Item -->
-
-              <div class="progress">
-                <span class="skill"><span><b>Software Development & Tools</b>: Linux, Windows 10/11, macOS, Git, GitHub, Analytics, DNS</span></span>
-              </div><!-- End Skills Item -->
-            </div>
-          </div>
-
-          <div class="col-md-6">
             <div class="about-me">
               <h4>About me</h4>
               <p>
                 Through my academic and personal experiences, I've showcased my ability to persevere through adversity. Embracing these hardships has fortified my determination to succeed academically and in my personal life. I continue to stay dedicated to my craft while on this rigorous journey. I continue to express passion for programming; I've demonstrated my ability to ensure my work is up to standard. As many more challenges are on the horizon, my ability to persevere will continue to propel me past them.
               </p>
-            </div>
+              <h4>Education</h4><hr>
+              <p>
+                California State University, Fullerton | May 2026<br>
+                <li>Bachelor of Science B.S. Computer Science</li>
+              </p>
+              <p>
+                El Camino College | June 2024<br>
+                <li>Certificate of Achievement Computer Science</li>
+                <li>Coursework: Computing in C++, Data Structures, Computing in Java, Advanced C++</li>
+              </p>
+              <p>
+                Hawthorne Math & Science Academy | June 2022<br>
+                <li>Certificate of Proficiency (CHSPE)</li>
+              </p>
           </div>
         </div>
 
@@ -124,7 +109,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <p>Below are various projects I've worked on. Feel free to view the live demo and repository.</p>
+        <p>Below are various projects I've worked on; hover/click over images to view more details.<br>Feel free to view the live demo and repository.</p>
       </div><!-- End Section Title -->
     
       <div class="container">
@@ -135,6 +120,7 @@
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-cpp">C++</li>
             <li data-filter=".filter-java">Java</li>
+            <li data-filter=".filter-html">HTML/CSS</li>
           </ul><!-- End Portfolio Filters -->
     
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -208,6 +194,17 @@
             </div><!-- End Portfolio Item -->
 
             <!-- Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-html">
+              <img src="assets/img/portfolio.png" class="img-fluid project-image" alt="">
+              <div class="portfolio-info">
+                <h4>v2 Portfolio</h4>
+                <p>View previous version of my portfolio (v2) <a href="https://bbabiker.com/v2" title="v2. portfolio">here</a>.
+                </p>
+                <a href="https://github.com/BabikerBabiker/v2" title="v2 Portfolio Repository" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <!-- Portfolio Item -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cpp">
               <img src="assets/img/GuessQuest.jpg" class="img-fluid project-image" alt="">
               <div class="portfolio-info">
@@ -248,7 +245,7 @@
           <p>Contact Me Below</p>
         </div>
     
-        <div class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="400">
+        <div class="contact-form-container" data-aos="fade-up" data-aos-delay="400">
           <form action="https://formspree.io/f/xwpevdoz" method="POST" role="form" class="php-email-form">
             <input type="hidden" name="_next" value="https://bbabiker.com/submit.html">
             <div class="row">
@@ -260,7 +257,7 @@
               </div>
             </div>
             <div class="form-group mt-3">
-              <textarea class="form-control message-box" name="message" rows="5" placeholder="Message" required></textarea>
+              <textarea class="form-control message-box" name="message" rows="5" placeholder="Message" required style="height: 184px;"></textarea>
             </div>
             <div class="my-3">
               <div class="loading">Loading</div>

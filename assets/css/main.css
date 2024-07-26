@@ -517,20 +517,26 @@ section, .section {
   padding-bottom: 20px;
   position: relative;
 }
-.section-title h2:after {
+.section-title h2 {
+  position: relative;
+  text-align: left; 
+  padding-bottom: 10px; 
+  margin-left: 0; 
+}
+
+.section-title h2::after {
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
+  width: 50px; 
   height: 3px;
   background: var(--accent-color);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
+  left: 0; 
+  bottom: 0; 
 }
 .section-title p {
   margin-bottom: 0;
+  text-align: left;
 }
 
 .hero {
@@ -784,36 +790,42 @@ section, .section {
 
 .portfolio .portfolio-filters {
   padding: 0;
-  margin: 0 auto 20px auto;
+  margin: 0; 
+  margin-bottom: 20px;
   list-style: none;
-  text-align: center;
+  text-align: left; 
 }
+
 .portfolio .portfolio-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 0;
   font-size: 16px;
   font-weight: 600;
-  margin: 0 10px;
+  margin: 0 10px; 
   line-height: 1;
   text-transform: uppercase;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-.portfolio .portfolio-filters li:hover, .portfolio .portfolio-filters li.filter-active {
+
+.portfolio .portfolio-filters li:hover, 
+.portfolio .portfolio-filters li.filter-active {
   color: var(--accent-color);
 }
+
 .portfolio .portfolio-filters li:first-child {
   margin-left: 0;
 }
 .portfolio .portfolio-filters li:last-child {
   margin-right: 0;
 }
+
 @media (max-width: 575px) {
   .portfolio .portfolio-filters li {
-      font-size: 14px;
-      margin: 0 5px;
- }
+    font-size: 14px;
+    margin: 0 5px; 
+  }
 }
 .portfolio .portfolio-item {
   position: relative;
@@ -1328,22 +1340,29 @@ section, .section {
   max-width: 100px;
   height: auto;
 }
-.message-box {
-  max-height: 200px;
-  min-height: 100px;
+
+.contact-form-container {
+  display: flex;
+  justify-content: flex-start; 
+  padding: 0;
 }
+
 .contact .php-email-form {
-  max-width: 600px;
+  max-width: 100%;
   width: 100%;
   padding: 30px;
   background: #fff;
   box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+  margin: 0; 
 }
+
 .contact .message-box {
   min-height: 100px;
   max-height: 150px;
   overflow-y: auto;
+  text-align: left; 
 }
+
 .btn-common {
   display: inline-block;
   padding: 10px 20px;
