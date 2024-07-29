@@ -1391,3 +1391,79 @@ section, .section {
   width: 0;
   background: transparent;
 }
+
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 7px;
+  border-radius: 3px;
+  color: white;
+}
+
+.cplusplus {
+  background-color: #00599C;
+}
+
+.java {
+  background-color: #F89820;
+}
+
+.sqlite {
+  background-color: #003B57;
+}
+
+.python {
+  background-color: #306998;
+}
+
+.html {
+  background-color: #E34F26;
+}
+
+.css {
+  background-color: #1572B6;
+}
+
+.js {
+  background-color: #c4b32c;
+}
+
+.gtk {
+  background-color: #3D3D3D;
+}
+
+.api {
+  background-color: #4CAF50;
+}
+
+.file-io {
+  background-color: #FFC107;
+}
+
+.sorting {
+  background-color: #FF5722;
+}
+
+.vscode {
+  background-color: #007ACC;
+}
+
+.visual-studio-2022 {
+  background-color: #5C2D91;
+}
+
+.oop {
+  background-color: #4A4A4A;
+}
+
+.opengl {
+  background-color: #ff7ed6;
+}
+
+.github {
+  background-color: #333333;
+}
+
+.tkinter {
+  background-color: #4D4D4D;
+}
