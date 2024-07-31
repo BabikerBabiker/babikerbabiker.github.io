@@ -1005,7 +1005,7 @@ section {
 }
 
 .js {
-	background-color: #dac73c
+	background-color: #F7DF1E
 }
 
 .gtk {
@@ -1013,7 +1013,7 @@ section {
 }
 
 .api {
-	background-color: #4caf50
+	background-color: #4CAF50
 }
 
 .file-io {
@@ -1046,4 +1046,16 @@ section {
 
 .tkinter {
 	background-color: #4d4d4d
+}
+
+.nextjs {
+	background-color: #000000;
+}
+
+.firebase {
+	background-color: #FF5722;
+}
+
+.materialui {
+	background-color: #007FFF;
 }
