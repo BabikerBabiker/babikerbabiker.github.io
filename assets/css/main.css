@@ -685,6 +685,7 @@ section {
 
 	.portfolio .portfolio-item img {
 		height: 350px;
+		width: auto;
 	}
 
     .portfolio .portfolio-filters li {
