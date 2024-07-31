@@ -683,6 +683,10 @@ section {
         box-sizing: border-box;
     }
 
+	.portfolio .portfolio-item img {
+		height: 350px;
+	}
+
     .portfolio .portfolio-filters li {
         font-size: 14px;
         margin: 0 5px;
