@@ -1031,6 +1031,8 @@ section {
  }
  
  .blog-item {
+	max-width: 700px;
+	max-height: 400px;
 	margin-bottom: 20px;
 	margin-right: 10px;
  }
