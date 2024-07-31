@@ -676,7 +676,7 @@ section {
 }
 
 .portfolio .portfolio-item:hover::after {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.812);
 }
 
 @media (max-width: 768px) {
