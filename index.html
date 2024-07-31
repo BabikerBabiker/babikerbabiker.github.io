@@ -1,487 +1,528 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XF8H3V45MZ"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'G-XF8H3V45MZ');
-    </script>
-    <script type="text/javascript">
-      window.heapReadyCb = window.heapReadyCb || [], window.heap = window.heap || [], heap.load = function(e, t) {
-        window.heap.envId = e, window.heap.clientConfig = t = t || {}, window.heap.clientConfig.shouldFetchServerConfig = !1;
-        var a = document.createElement("script");
-        a.type = "text/javascript", a.async = !0, a.src = "https://cdn.us.heap-api.com/config/" + e + "/heap_config.js";
-        var r = document.getElementsByTagName("script")[0];
-        r.parentNode.insertBefore(a, r);
-        var n = ["init", "startTracking", "stopTracking", "track", "resetIdentity", "identify", "getSessionId", "getUserId", "getIdentity", "addUserProperties", "addEventProperties", "removeEventProperty", "clearEventProperties", "addAccountProperties", "addAdapter", "addTransformer", "addTransformerFn", "onReady", "addPageviewProperties", "removePageviewProperty", "clearPageviewProperties", "trackPageview"],
-          i = function(e) {
-            return function() {
-              var t = Array.prototype.slice.call(arguments, 0);
-              window.heapReadyCb.push({
-                name: e,
-                fn: function() {
-                  heap[e] && heap[e].apply(heap, t)
-                }
-              })
-            }
-          };
-        for (var p = 0; p < n.length; p++) heap[n[p]] = i(n[p])
-      };
-      heap.load("2116135735");
-    </script>
-    <meta name="description" content="Babiker Babiker's portfolio showcasing projects in C++, Java, HTML/CSS, Python, SQL, GUI, and CLI. Explore my work in software development and more.">
-    <meta name="keywords" content="Babiker Babiker, portfolio, C++, Java, HTML/CSS, Python, SQL, GUI, CLI, software development, web development, programming projects">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Babiker Babiker</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <!-- Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet">
-  </head>
-  <body class="index-page">
-    <header id="header" class="header d-flex align-items-center sticky-top">
-      <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-        <a href="index.html" class="logo d-flex align-items-center">
-          <h1 class="sitename">Babiker</h1>
-        </a>
-        <nav id="navmenu" class="navmenu">
-          <ul>
-            <li>
-              <a href="#hero" class="active">Home <br>
-              </a>
-            </li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#portfolio">Portfolio</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </nav>
-      </div>
-    </header>
-    <main class="main">
-      <!-- Hero Section -->
-      <section id="hero" class="hero section dark-background">
-        <img src="assets/img/code.png" alt="Landing Page Image" data-aos="fade-in">
-        <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-          <h2>Babiker Babiker</h2>
-          <p>
-            <span class="typed" data-typed-items="Computer Science @ CSU Fullerton, SWE Fellow @ Headstarter AI"></span>
-          </p>
-        </div>
-      </section>
-      <!-- /Hero Section -->
-      <!-- About Section -->
-      <section id="about" class="about section">
-        <div class="container">
-          <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="about-me">
-              <h2>About me</h2>
-              <p> Through my academic and personal experiences, I've showcased my ability to persevere through adversity. Embracing these hardships has fortified my determination to succeed academically and in my personal life. I continue to stay dedicated to my craft while on this rigorous journey. I continue to express passion for programming; I've demonstrated my ability to ensure my work is up to standard. As many more challenges are on the horizon, my ability to persevere will continue to propel me past them. </p>
-              <h2>Education</h2>
-              <hr>
-              <p>
-                <b>California State University, Fullerton | May 2026</b>
-                <br>
-                <li>Bachelor of Science B.S. Computer Science</li>
-              </p>
-              <p>
-                <b>El Camino College | June 2024</b>
-                <br>
-                <li>Certificate of Achievement Computer Science</li>
-                <li>Coursework: Computing in C++, Data Structures, Computing in Java, Advanced C++</li>
-              </p>
-              <p>
-                <b>Hawthorne Math & Science Academy | June 2022</b>
-                <br>
-                <li>Certificate of Proficiency (CHSPE)</li>
-              </p>
+   <head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XF8H3V45MZ"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         
+         function gtag() {
+           dataLayer.push(arguments);
+         }
+         gtag('js', new Date());
+         gtag('config', 'G-XF8H3V45MZ');
+      </script>
+      <script type="text/javascript">
+         window.heapReadyCb = window.heapReadyCb || [], window.heap = window.heap || [], heap.load = function(e, t) {
+           window.heap.envId = e, window.heap.clientConfig = t = t || {}, window.heap.clientConfig.shouldFetchServerConfig = !1;
+           var a = document.createElement("script");
+           a.type = "text/javascript", a.async = !0, a.src = "https://cdn.us.heap-api.com/config/" + e + "/heap_config.js";
+           var r = document.getElementsByTagName("script")[0];
+           r.parentNode.insertBefore(a, r);
+           var n = ["init", "startTracking", "stopTracking", "track", "resetIdentity", "identify", "getSessionId", "getUserId", "getIdentity", "addUserProperties", "addEventProperties", "removeEventProperty", "clearEventProperties", "addAccountProperties", "addAdapter", "addTransformer", "addTransformerFn", "onReady", "addPageviewProperties", "removePageviewProperty", "clearPageviewProperties", "trackPageview"],
+             i = function(e) {
+               return function() {
+                 var t = Array.prototype.slice.call(arguments, 0);
+                 window.heapReadyCb.push({
+                   name: e,
+                   fn: function() {
+                     heap[e] && heap[e].apply(heap, t)
+                   }
+                 })
+               }
+             };
+           for (var p = 0; p < n.length; p++) heap[n[p]] = i(n[p])
+         };
+         heap.load("2116135735");
+      </script>
+      <meta name="description" content="Babiker Babiker's portfolio showcasing projects in C++, Java, HTML/CSS, Python, SQL, GUI, and CLI. Explore my work in software development and more.">
+      <meta name="keywords" content="Babiker Babiker, portfolio, C++, Java, HTML/CSS, Python, SQL, GUI, CLI, software development, web development, programming projects">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Babiker Babiker</title>
+      <meta content="" name="description">
+      <meta content="" name="keywords">
+      <!-- Favicons -->
+      <link href="assets/img/favicon.png" rel="icon">
+      <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+      <!-- Fonts -->
+      <link href="https://fonts.googleapis.com" rel="preconnect">
+      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <!-- Vendor CSS Files -->
+      <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+      <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+      <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+      <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+      <!-- Main CSS File -->
+      <link href="assets/css/main.css" rel="stylesheet">
+   </head>
+   <body class="index-page">
+      <header id="header" class="header d-flex align-items-center sticky-top">
+         <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+               <h1 class="sitename">Babiker</h1>
+            </a>
+            <nav id="navmenu" class="navmenu">
+               <ul>
+                  <li>
+                     <a href="#hero" class="active">Home <br>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#about">About</a>
+                  </li>
+                  <li>
+                     <a href="#portfolio">Portfolio</a>
+                  </li>
+                  <li>
+                     <a href="#contact">Contact</a>
+                  </li>
+               </ul>
+               <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+         </div>
+      </header>
+      <main class="main">
+         <!-- Hero Section -->
+         <section id="hero" class="hero section dark-background">
+            <img src="assets/img/code.png" alt="Landing Page Image" data-aos="fade-in">
+            <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+               <h2>Babiker Babiker</h2>
+               <p>
+                  <span class="typed" data-typed-items="Computer Science @ CSU Fullerton, SWE Fellow @ Headstarter AI"></span>
+               </p>
             </div>
-          </div>
-        </div>
-      </section>
-      <!-- /About Section -->
-      <!-- Portfolio Section -->
-      <section id="portfolio" class="portfolio section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Portfolio</h2>
-          <p>Below are various projects I've worked on; hover/click over images to view more details. <br>Feel free to view the live demo and repository. </p>
-        </div>
-        <!-- End Section Title -->
-        <div class="container">
-          <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-            <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-cpp">C++</li>
-              <li data-filter=".filter-java">Java</li>
-              <li data-filter=".filter-python">Python</li>
-              <li data-filter=".filter-web">Web Dev</li>
-              <li data-filter=".filter-db">Database</li>
-              <li data-filter=".filter-gui">GUI</li>
-              <li data-filter=".filter-cli">CLI</li>
-            </ul>
-            <!-- End Portfolio Filters -->
-            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-              <!-- Portfolio Item -->
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cpp filter-gui">
-                <img src="assets/img/IceMan.png" class="img-fluid project-image" alt="IceMan">
-                <div class="portfolio-info">
-                  <h4>IceMan</h4>
-                  <p>Interactive game using OpenGL that allows user to mine ice, find oil, and escape protestors as its main objectives. <a href="https://youtu.be/5oswDgrJkNk" title="Iceman Demo">Live Demo</a>
-                  <div class="tags">
-                    <span class="tag cplusplus">C++</span>
-                    <span class="tag opengl">OpenGL</span>
-                    <span class="tag oop">OOP</span>
-                    <span class="tag github">GitHub</span>
-                    <span class="tag visual-studio-2022">Visual Studio 2022</span>
+         </section>
+         <!-- /Hero Section -->
+         <!-- About Section -->
+         <section id="about" class="about section">
+            <div class="container">
+               <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+                  <div class="about-me">
+                     <h2>About me</h2>
+                     <p>Through my academic and personal experiences, I've showcased my ability to persevere through adversity. Embracing these hardships has fortified my determination to succeed academically and in my personal life. I continue to stay dedicated to my craft while on this rigorous journey. I continue to express passion for programming; I've demonstrated my ability to ensure my work is up to standard. As many more challenges are on the horizon, my ability to persevere will continue to propel me past them.</p>
+                     <br>
+                     <h2>Quick Links</h2>
+                     <div class="quick-links">
+                        <a href="https://bbabiker.com/linkedin" class="link-item">
+                        <i class="bi bi-linkedin"></i>
+                        <span>LinkedIn</span>
+                        </a>
+                        <a href="https://bbabiker.com/github" class="link-item">
+                        <i class="bi bi-github"></i>
+                        <span>GitHub</span>
+                        </a>
+                        <a href="https://bbabiker.com/resume" class="link-item">
+                        <i class="bi bi-file-earmark-text"></i>
+                        <span>Resume</span>
+                        </a>
+                     </div>
+                     <br>
+                     <h2>Education</h2>
+                     <p>
+                        <b>California State University, Fullerton | May 2026</b>
+                        <br>
+                     <li>Bachelor of Science B.S. Computer Science</li>
+                     </p>
+                     <p>
+                        <b>El Camino College | June 2024</b>
+                        <br>
+                     <li>Certificate of Achievement Computer Science</li>
+                     <li>Coursework: Computing in C++, Data Structures, Computing in Java, Advanced C++</li>
+                     </p>
+                     <p>
+                        <b>Hawthorne Math & Science Academy | June 2022</b>
+                        <br>
+                     <li>Certificate of Proficiency (CHSPE)</li>
+                     </p><br>
                   </div>
-                  </p>
-                  <a href="https://github.com/BabikerBabiker/IceMan-Project" title="IceMan Repository" class="details-link">
-                    <i class="bi bi-link-45deg"></i>
-                  </a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-              <!-- Portfolio Item -->
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cpp filter-gui filter-db">
-                <img src="assets/img/FinanceFirst.png" class="img-fluid project-image" alt="FinanceFirst">
-                <div class="portfolio-info">
-                  <h4>FinanceFirst (Current)</h4>
-                  <p>Banking app which allows for deposits, withdraws, and transferring of money. Uses an SQLite 3 database to effectively & securely store data.
-                  <div class="tags">
-                    <span class="tag cplusplus">C++</span>
-                    <span class="tag sqlite">SQLite 3</span>
-                    <span class="tag gtk">GTK 3</span>
-                    <span class="tag github">GitHub</span>
-                    <span class="tag vscode">VS Code</span>
-                  </div>
-                  </p>
-                  <a href="https://github.com/BabikerBabiker/FinanceFirst" title="FinanceFirst Repository" class="details-link">
-                    <i class="bi bi-link-45deg"></i>
-                  </a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-              <!-- Portfolio Item -->
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-java filter-cli">
-                <img src="assets/img/CurrencyXChange.png" class="img-fluid project-image" alt="Currency X Change">
-                <div class="portfolio-info">
-                  <h4>Currency X Change</h4>
-                  <p>Console-Based application that allows support for over 150 currencies and their conversions. Simple menu to navigate <a href="https://youtu.be/CxL9B_iu-oI" title="Currency X Change Demo">Live Demo</a>
-                  <div class="tags">
-                    <span class="tag java">Java</span>
-                    <span class="tag api">API</span>
-                    <span class="tag github">GitHub</span>
-                    <span class="tag vscode">VS Code</span>
-                  </div>
-                  </p>
-                  <a href="https://github.com/BabikerBabiker/Currency-X-Change" title="Currency X Change Repository" class="details-link">
-                    <i class="bi bi-link-45deg"></i>
-                  </a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-               <!-- Portfolio Item -->
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web filter-gui filter-db">
-                <img src="assets/img/PantryApp.jpg" class="img-fluid project-image" alt="Pantry App">
-                <div class="portfolio-info">
-                  <h4>Pantry App</h4>
-                  <p>An intuitive application designed to manage and track your food inventory with ease, featuring item addition, removal, and detailed sorting and search functionalities. <a href="https://bbabiker.com/pantry">Web App</a>
-                  <div class="tags">
-                    <span class="tag nextjs">Next.js</span>
-                    <span class="tag firebase">Firebase</span>
-                    <span class="tag materialui">Material UI</span>
-                    <span class="tag api">API</span>
-                    <span class="tag github">GitHub</span>
-                    <span class="tag vscode">VS Code</span>
-                  </div>
-                  </p>
-                  <a href="https://github.com/BabikerBabiker/Pantry-App" title="Pantry App Repository" class="details-link">
-                    <i class="bi bi-link-45deg"></i>
-                  </a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-              <!-- Portfolio Item -->
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-python filter-gui">
-                <img src="assets/img/ClearCast.png" class="img-fluid project-image" alt="ClearCast">
-                <div class="portfolio-info">
-                  <h4>ClearCast</h4>
-                  <p>Sleek weather dashboard app that provides real-time weather updates and forecasts, leveraging geolocation to deliver accurate information directly to your desktop
-                  <div class="tags">
-                    <span class="tag python">Python</span>
-                    <span class="tag tkinter">Tkinter</span>
-                    <span class="tag api">API</span>
-                    <span class="tag github">GitHub</span>
-                    <span class="tag vscode">VS Code</span>
-                  </div>
-                  </p>
-                  <a href="https://github.com/BabikerBabiker/ClearCast" title="ClearCast Repository" class="details-link">
-                    <i class="bi bi-link-45deg"></i>
-                  </a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-              <!-- Portfolio Item -->
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cpp filter-cli">
-                <img src="assets/img/ValidCPP.png" class="img-fluid project-image" alt="ValidCPP">
-                <div class="portfolio-info">
-                  <h4>ValidCPP</h4>
-                  <p>A C++ syntax validation program that checks a .cpp file for balanced quotes, brackets, parenthesis etc. <a href="https://youtu.be/wvVoYRpf4lU" title="ValidCPP Demo">Live Demo</a>
-                  <div class="tags">
-                    <span class="tag cplusplus">C++</span>
-                    <span class="tag file-io">File: I/O</span>
-                    <span class="tag github">GitHub</span>
-                    <span class="tag visual-studio-2022">Visual Studio 2022</span>
-                  </div>
-                  </p>
-                  <a href="https://github.com/babikerbabiker/validcpp" title="ValidCPP Repository" class="details-link">
-                    <i class="bi bi-link-45deg"></i>
-                  </a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-              <!-- Portfolio Item -->
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cpp filter-cli filter-db">
-                <img src="assets/img/martiandb.png" class="img-fluid project-image" alt="Martian Database">
-                <div class="portfolio-info">
-                  <h4>Martian Database</h4>
-                  <p>C++ application that manages a database of Martian individuals. Users can add, delete by SSN, and print entries sorted by first name, last name, or SSN.
-                  <div class="tags">
-                    <span class="tag cplusplus">C++</span>
-                    <span class="tag file-io">File: I/O</span>
-                    <span class="tag oop">OOP</span>
-                    <span class="tag github">GitHub</span>
-                    <span class="tag visual-studio-2022">Visual Studio 2022</span>
-                  </div>
-                  </p>
-                  <a href="https://github.com/BabikerBabiker/MartianDB" title="Martian Database Repository" class="details-link">
-                    <i class="bi bi-link-45deg"></i>
-                  </a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-              <!-- Portfolio Item -->
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cpp filter-cli">
-                <img src="assets/img/wordshuffle.png" class="img-fluid project-image" alt="WordShuffle">
-                <div class="portfolio-info">
-                  <h4>WordShuffle</h4>
-                  <p>WordShuffle reads a dictionary file, finds anagrams of a user-input string using sorting and permutation algorithms, and displays results via command line.
-                  <div class="tags">
-                    <span class="tag cplusplus">C++</span>
-                    <span class="tag file-io">File: I/O</span>
-                    <span class="tag sorting">Sorting</span>
-                    <span class="tag github">GitHub</span>
-                    <span class="tag visual-studio-2022">Visual Studio 2022</span>
-                  </div>
-                  </p>
-                  <a href="https://github.com/BabikerBabiker/WordShuffle" title="WordShuffle Repository" class="details-link">
-                    <i class="bi bi-link-45deg"></i>
-                  </a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-              <!-- Portfolio Item -->
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-python filter-cli">
-                <img src="assets/img/InstaInsight.jpg" class="img-fluid project-image" alt="InstaInsight">
-                <div class="portfolio-info">
-                  <h4>InstaInsight</h4>
-                  <p>Python script that logs into Instagram using credentials from a file, checks for users followers and users following, and identifies users who follow you but you don't follow back, utilizing the Instaloader API.
-                  <div class="tags">
-                    <span class="tag python">Python</span>
-                    <span class="tag file-io">File: I/O</span>
-                    <span class="tag api">API</span>
-                    <span class="tag github">GitHub</span>
-                    <span class="tag vscode">VS Code</span>
-                  </div>
-                  </p>
-                  <a href="https://github.com/BabikerBabiker/InstaInsight" title="InstaInsight Repository" class="details-link">
-                    <i class="bi bi-link-45deg"></i>
-                  </a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-              <!-- Portfolio Item -->
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web filter-gui">
-                <img src="assets/img/portfolio.png" class="img-fluid project-image" alt="v2 Portfolio">
-                <div class="portfolio-info">
-                  <h4>v2 Portfolio</h4>
-                  <p>View previous version of my portfolio (v2) <a href="https://bbabiker.com/v2" title="v2. portfolio">here</a>.
-                  <div class="tags">
-                    <span class="tag html">HTML</span>
-                    <span class="tag css">CSS</span>
-                    <span class="tag js">JavaScript</span>
-                    <span class="tag github">GitHub</span>
-                    <span class="tag vscode">VS Code</span>
-                  </div>
-                  </p>
-                  <a href="https://github.com/BabikerBabiker/v2" title="v2 Portfolio Repository" class="details-link">
-                    <i class="bi bi-link-45deg"></i>
-                  </a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-              <!-- Portfolio Item -->
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cpp filter-cli">
-                <img src="assets/img/GuessQuest.jpg" class="img-fluid project-image" alt="GuessQuest">
-                <div class="portfolio-info">
-                  <h4>GuessQuest</h4>
-                  <p>Guess that target number! User starts off with $1000 and loses $100 per wrong guess. Try to guess in the least amount of guesses as possible! <a href="https://youtu.be/9wJAS5VMF90" title="GuessQuest Demo">Live Demo</a>
-                  <div class="tags">
-                    <span class="tag cplusplus">C++</span>
-                    <span class="tag oop">OOP</span>
-                    <span class="tag github">GitHub</span>
-                    <span class="tag visual-studio-2022">Visual Studio 2022</span>
-                  </div>
-                  </p>
-                  <a href="https://github.com/BabikerBabiker/GuessQuest" title="GuessQuest Repository" class="details-link">
-                    <i class="bi bi-link-45deg"></i>
-                  </a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-              <!-- Portfolio Item -->
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-java filter-cli">
-                <img src="assets/img/Rainfall.png" class="img-fluid project-image" alt="Rainfall Calculator">
-                <div class="portfolio-info">
-                  <h4>Rainfall Calculator</h4>
-                  <p>Receives user-reported rainfall for each month and performs various tasks such as sorting, average, and total. <a href="https://youtu.be/_xVGM1L4liY" title="Rainfall Calculator Demo">Live Demo</a>
-                  <div class="tags">
-                    <span class="tag java">Java</span>
-                    <span class="tag sorting">Sorting</span>
-                    <span class="tag github">GitHub</span>
-                    <span class="tag vscode">VS Code</span>
-                  </div>
-                  </p>
-                  <a href="https://github.com/BabikerBabiker/Rainfall-Calculator" title="Rainfall Calculator Repository" class="details-link">
-                    <i class="bi bi-link-45deg"></i>
-                  </a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
+               </div>
             </div>
-            <!-- End Portfolio Container -->
-          </div>
-        </div>
-      </section>
-      <!-- /Portfolio Section -->
-      <!-- Contact Section -->
-      <section id="contact" class="contact">
-        <div class="container">
-          <div class="section-title" data-aos="fade-up">
-            <h2>Contact</h2>
-            <p>Contact Me Below</p>
-          </div>
-          <div class="contact-form-container" data-aos="fade-up" data-aos-delay="400">
-            <form action="https://formspree.io/f/xwpevdoz" method="POST" role="form" class="php-email-form">
-              <input type="hidden" name="_next" value="">
-              <div class="row">
-                <div class="col form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control message-box" name="message" rows="5" placeholder="Message" required style="height: 184px;"></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center">
-                <button type="submit" class="btn-common">Send Message</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </section>
-      <!-- End Contact Section-->
-    </main>
-    <footer id="footer" class="footer accent-background">
-      <div class="container">
-        <div class="copyright text-center ">
-          <p>© <span>Copyright</span>
-            <strong class="px-1 sitename">Babiker Babiker</strong>
-            <span>All Rights Reserved</span>
-            <br>v3. Portfolio
-          </p>
-        </div>
-        <div class="social-links d-flex justify-content-center">
-          <a href="https://bbabiker.com/linkedin">
-            <i class="bi bi-linkedin"></i>
-          </a>
-          <a href="https://bbabiker.com/github">
-            <i class="bi bi-github"></i>
-          </a>
-          <a href="mailto:bbabiker09@gmail.com">
-            <i class="bi bi-inboxes-fill"></i>
-          </a>
-        </div>
-        <div class="signature text-center">
-          <img src="assets/img/Signature.png" alt="Signature" class="img-fluid">
-        </div>
-      </div>
-    </footer>
-    <!-- Scroll Top -->
-    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+         </section>
+         <!-- /About Section -->
+         <!-- Portfolio Section -->
+         <section id="portfolio" class="portfolio section">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+               <h2>Portfolio</h2>
+               <p>Below are various projects I've worked on; hover/click over images to view more details. <br>Feel free to view the live demo and repository. </p>
+            </div>
+            <!-- End Section Title -->
+            <div class="container">
+               <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+                  <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                     <li data-filter="*" class="filter-active">All</li>
+                     <li data-filter=".filter-cpp">C++</li>
+                     <li data-filter=".filter-java">Java</li>
+                     <li data-filter=".filter-python">Python</li>
+                     <li data-filter=".filter-web">Web Dev</li>
+                     <li data-filter=".filter-db">Database</li>
+                     <li data-filter=".filter-gui">GUI</li>
+                     <li data-filter=".filter-cli">CLI</li>
+                  </ul>
+                  <!-- End Portfolio Filters -->
+                  <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                     <!-- Portfolio Item -->
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cpp filter-gui">
+                        <img src="assets/img/IceMan.png" class="img-fluid project-image" alt="IceMan">
+                        <div class="portfolio-info">
+                           <h4>IceMan</h4>
+                           <p>Interactive game using OpenGL that allows user to mine ice, find oil, and escape protestors as its main objectives. <a href="https://youtu.be/5oswDgrJkNk" title="Iceman Demo">Live Demo</a>
+                           <div class="tags">
+                              <span class="tag cplusplus">C++</span>
+                              <span class="tag opengl">OpenGL</span>
+                              <span class="tag oop">OOP</span>
+                              <span class="tag github">GitHub</span>
+                              <span class="tag visual-studio-2022">Visual Studio 2022</span>
+                           </div>
+                           </p>
+                           <a href="https://github.com/BabikerBabiker/IceMan-Project" title="IceMan Repository" class="details-link">
+                           <i class="bi bi-link-45deg"></i>
+                           </a>
+                        </div>
+                     </div>
+                     <!-- End Portfolio Item -->
+                     <!-- Portfolio Item -->
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cpp filter-gui filter-db">
+                        <img src="assets/img/FinanceFirst.png" class="img-fluid project-image" alt="FinanceFirst">
+                        <div class="portfolio-info">
+                           <h4>FinanceFirst (Current)</h4>
+                           <p>Banking app which allows for deposits, withdraws, and transferring of money. Uses an SQLite 3 database to effectively & securely store data.
+                           <div class="tags">
+                              <span class="tag cplusplus">C++</span>
+                              <span class="tag sqlite">SQLite 3</span>
+                              <span class="tag gtk">GTK 3</span>
+                              <span class="tag github">GitHub</span>
+                              <span class="tag vscode">VS Code</span>
+                           </div>
+                           </p>
+                           <a href="https://github.com/BabikerBabiker/FinanceFirst" title="FinanceFirst Repository" class="details-link">
+                           <i class="bi bi-link-45deg"></i>
+                           </a>
+                        </div>
+                     </div>
+                     <!-- End Portfolio Item -->
+                     <!-- Portfolio Item -->
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-java filter-cli">
+                        <img src="assets/img/CurrencyXChange.png" class="img-fluid project-image" alt="Currency X Change">
+                        <div class="portfolio-info">
+                           <h4>Currency X Change</h4>
+                           <p>Console-Based application that allows support for over 150 currencies and their conversions. Simple menu to navigate <a href="https://youtu.be/CxL9B_iu-oI" title="Currency X Change Demo">Live Demo</a>
+                           <div class="tags">
+                              <span class="tag java">Java</span>
+                              <span class="tag api">API</span>
+                              <span class="tag github">GitHub</span>
+                              <span class="tag vscode">VS Code</span>
+                           </div>
+                           </p>
+                           <a href="https://github.com/BabikerBabiker/Currency-X-Change" title="Currency X Change Repository" class="details-link">
+                           <i class="bi bi-link-45deg"></i>
+                           </a>
+                        </div>
+                     </div>
+                     <!-- End Portfolio Item -->
+                     <!-- Portfolio Item -->
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web filter-gui filter-db">
+                        <img src="assets/img/PantryApp.jpg" class="img-fluid project-image" alt="Pantry App">
+                        <div class="portfolio-info">
+                           <h4>Pantry App</h4>
+                           <p>An intuitive application designed to manage and track your food inventory with ease, featuring item addition, removal, and detailed sorting and search functionalities. <a href="https://bbabiker.com/pantry">Web App</a>
+                           <div class="tags">
+                              <span class="tag nextjs">Next.js</span>
+                              <span class="tag firebase">Firebase</span>
+                              <span class="tag materialui">Material UI</span>
+                              <span class="tag api">API</span>
+                              <span class="tag github">GitHub</span>
+                              <span class="tag vscode">VS Code</span>
+                           </div>
+                           </p>
+                           <a href="https://github.com/BabikerBabiker/Pantry-App" title="Pantry App Repository" class="details-link">
+                           <i class="bi bi-link-45deg"></i>
+                           </a>
+                        </div>
+                     </div>
+                     <!-- End Portfolio Item -->
+                     <!-- Portfolio Item -->
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-python filter-gui">
+                        <img src="assets/img/ClearCast.png" class="img-fluid project-image" alt="ClearCast">
+                        <div class="portfolio-info">
+                           <h4>ClearCast</h4>
+                           <p>Sleek weather dashboard app that provides real-time weather updates and forecasts, leveraging geolocation to deliver accurate information directly to your desktop
+                           <div class="tags">
+                              <span class="tag python">Python</span>
+                              <span class="tag tkinter">Tkinter</span>
+                              <span class="tag api">API</span>
+                              <span class="tag github">GitHub</span>
+                              <span class="tag vscode">VS Code</span>
+                           </div>
+                           </p>
+                           <a href="https://github.com/BabikerBabiker/ClearCast" title="ClearCast Repository" class="details-link">
+                           <i class="bi bi-link-45deg"></i>
+                           </a>
+                        </div>
+                     </div>
+                     <!-- End Portfolio Item -->
+                     <!-- Portfolio Item -->
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cpp filter-cli">
+                        <img src="assets/img/ValidCPP.png" class="img-fluid project-image" alt="ValidCPP">
+                        <div class="portfolio-info">
+                           <h4>ValidCPP</h4>
+                           <p>A C++ syntax validation program that checks a .cpp file for balanced quotes, brackets, parenthesis etc. <a href="https://youtu.be/wvVoYRpf4lU" title="ValidCPP Demo">Live Demo</a>
+                           <div class="tags">
+                              <span class="tag cplusplus">C++</span>
+                              <span class="tag file-io">File: I/O</span>
+                              <span class="tag github">GitHub</span>
+                              <span class="tag visual-studio-2022">Visual Studio 2022</span>
+                           </div>
+                           </p>
+                           <a href="https://github.com/babikerbabiker/validcpp" title="ValidCPP Repository" class="details-link">
+                           <i class="bi bi-link-45deg"></i>
+                           </a>
+                        </div>
+                     </div>
+                     <!-- End Portfolio Item -->
+                     <!-- Portfolio Item -->
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cpp filter-cli filter-db">
+                        <img src="assets/img/martiandb.png" class="img-fluid project-image" alt="Martian Database">
+                        <div class="portfolio-info">
+                           <h4>Martian Database</h4>
+                           <p>C++ application that manages a database of Martian individuals. Users can add, delete by SSN, and print entries sorted by first name, last name, or SSN.
+                           <div class="tags">
+                              <span class="tag cplusplus">C++</span>
+                              <span class="tag file-io">File: I/O</span>
+                              <span class="tag oop">OOP</span>
+                              <span class="tag github">GitHub</span>
+                              <span class="tag visual-studio-2022">Visual Studio 2022</span>
+                           </div>
+                           </p>
+                           <a href="https://github.com/BabikerBabiker/MartianDB" title="Martian Database Repository" class="details-link">
+                           <i class="bi bi-link-45deg"></i>
+                           </a>
+                        </div>
+                     </div>
+                     <!-- End Portfolio Item -->
+                     <!-- Portfolio Item -->
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cpp filter-cli">
+                        <img src="assets/img/wordshuffle.png" class="img-fluid project-image" alt="WordShuffle">
+                        <div class="portfolio-info">
+                           <h4>WordShuffle</h4>
+                           <p>WordShuffle reads a dictionary file, finds anagrams of a user-input string using sorting and permutation algorithms, and displays results via command line.
+                           <div class="tags">
+                              <span class="tag cplusplus">C++</span>
+                              <span class="tag file-io">File: I/O</span>
+                              <span class="tag sorting">Sorting</span>
+                              <span class="tag github">GitHub</span>
+                              <span class="tag visual-studio-2022">Visual Studio 2022</span>
+                           </div>
+                           </p>
+                           <a href="https://github.com/BabikerBabiker/WordShuffle" title="WordShuffle Repository" class="details-link">
+                           <i class="bi bi-link-45deg"></i>
+                           </a>
+                        </div>
+                     </div>
+                     <!-- End Portfolio Item -->
+                     <!-- Portfolio Item -->
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-python filter-cli">
+                        <img src="assets/img/InstaInsight.jpg" class="img-fluid project-image" alt="InstaInsight">
+                        <div class="portfolio-info">
+                           <h4>InstaInsight</h4>
+                           <p>Python script that logs into Instagram using credentials from a file, checks for users followers and users following, and identifies users who follow you but you don't follow back, utilizing the Instaloader API.
+                           <div class="tags">
+                              <span class="tag python">Python</span>
+                              <span class="tag file-io">File: I/O</span>
+                              <span class="tag api">API</span>
+                              <span class="tag github">GitHub</span>
+                              <span class="tag vscode">VS Code</span>
+                           </div>
+                           </p>
+                           <a href="https://github.com/BabikerBabiker/InstaInsight" title="InstaInsight Repository" class="details-link">
+                           <i class="bi bi-link-45deg"></i>
+                           </a>
+                        </div>
+                     </div>
+                     <!-- End Portfolio Item -->
+                     <!-- Portfolio Item -->
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web filter-gui">
+                        <img src="assets/img/portfolio.png" class="img-fluid project-image" alt="v2 Portfolio">
+                        <div class="portfolio-info">
+                           <h4>v2 Portfolio</h4>
+                           <p>View previous version of my portfolio (v2) <a href="https://bbabiker.com/v2" title="v2. portfolio">here</a>.
+                           <div class="tags">
+                              <span class="tag html">HTML</span>
+                              <span class="tag css">CSS</span>
+                              <span class="tag js">JavaScript</span>
+                              <span class="tag github">GitHub</span>
+                              <span class="tag vscode">VS Code</span>
+                           </div>
+                           </p>
+                           <a href="https://github.com/BabikerBabiker/v2" title="v2 Portfolio Repository" class="details-link">
+                           <i class="bi bi-link-45deg"></i>
+                           </a>
+                        </div>
+                     </div>
+                     <!-- End Portfolio Item -->
+                     <!-- Portfolio Item -->
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cpp filter-cli">
+                        <img src="assets/img/GuessQuest.jpg" class="img-fluid project-image" alt="GuessQuest">
+                        <div class="portfolio-info">
+                           <h4>GuessQuest</h4>
+                           <p>Guess that target number! User starts off with $1000 and loses $100 per wrong guess. Try to guess in the least amount of guesses as possible! <a href="https://youtu.be/9wJAS5VMF90" title="GuessQuest Demo">Live Demo</a>
+                           <div class="tags">
+                              <span class="tag cplusplus">C++</span>
+                              <span class="tag oop">OOP</span>
+                              <span class="tag github">GitHub</span>
+                              <span class="tag visual-studio-2022">Visual Studio 2022</span>
+                           </div>
+                           </p>
+                           <a href="https://github.com/BabikerBabiker/GuessQuest" title="GuessQuest Repository" class="details-link">
+                           <i class="bi bi-link-45deg"></i>
+                           </a>
+                        </div>
+                     </div>
+                     <!-- End Portfolio Item -->
+                     <!-- Portfolio Item -->
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-java filter-cli">
+                        <img src="assets/img/Rainfall.png" class="img-fluid project-image" alt="Rainfall Calculator">
+                        <div class="portfolio-info">
+                           <h4>Rainfall Calculator</h4>
+                           <p>Receives user-reported rainfall for each month and performs various tasks such as sorting, average, and total. <a href="https://youtu.be/_xVGM1L4liY" title="Rainfall Calculator Demo">Live Demo</a>
+                           <div class="tags">
+                              <span class="tag java">Java</span>
+                              <span class="tag sorting">Sorting</span>
+                              <span class="tag github">GitHub</span>
+                              <span class="tag vscode">VS Code</span>
+                           </div>
+                           </p>
+                           <a href="https://github.com/BabikerBabiker/Rainfall-Calculator" title="Rainfall Calculator Repository" class="details-link">
+                           <i class="bi bi-link-45deg"></i>
+                           </a>
+                        </div>
+                     </div>
+                     <!-- End Portfolio Item -->
+                  </div>
+                  <!-- End Portfolio Container -->
+               </div>
+            </div>
+         </section>
+         <!-- /Portfolio Section -->
+         <!-- Blog Section -->
+         <section id="blog" class="blog section">
+            <div class="container">
+               <div class="section-title" data-aos="fade-up">
+                  <h2>Blog</h2>
+                  <p>Read my latest articles and insights on various topics.</p>
+               </div>
+               <div class="row gy-4">
+                  <!-- Blog Post -->
+                  <div class="col-lg-4 col-md-6 blog-item">
+                     <div class="blog-img">
+                        <img src="assets/img/blog1.jpg" class="img-fluid" alt="Blog Post 1">
+                     </div>
+                     <div class="blog-info">
+                        <h4><a href="#">Blog Post Title 1</a></h4>
+                        <p>Short summary of the blog post content. This should be a brief description that entices readers to click and read more.</p>
+                        <a href="#" class="read-more">Read More</a>
+                     </div>
+                  </div>
+                  <!-- End Blog Post -->
+                  <!-- Add more blog posts here -->
+               </div>
+            </div>
+         </section>
+         <!-- /Blog Section -->
+         <!-- Contact Section -->
+         <section id="contact" class="contact">
+            <div class="container">
+               <div class="section-title" data-aos="fade-up">
+                  <h2>Contact</h2>
+                  <p>Contact Me Below</p>
+               </div>
+               <div class="contact-form-container" data-aos="fade-up" data-aos-delay="400">
+                  <form action="https://formspree.io/f/xwpevdoz" method="POST" role="form" class="php-email-form">
+                     <input type="hidden" name="_next" value="">
+                     <div class="row">
+                        <div class="col form-group">
+                           <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="col form-group">
+                           <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                        </div>
+                     </div>
+                     <div class="form-group mt-3">
+                        <textarea class="form-control message-box" name="message" rows="5" placeholder="Message" required style="height: 184px;"></textarea>
+                     </div>
+                     <div class="my-3">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                     </div>
+                     <div class="text-center">
+                        <button type="submit" class="btn-common">Send Message</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </section>
+         <!-- End Contact Section-->
+      </main>
+      <footer id="footer" class="footer accent-background">
+         <div class="container">
+            <div class="copyright text-center ">
+               <p>© <span>Copyright</span>
+                  <strong class="px-1 sitename">Babiker Babiker</strong>
+                  <span>All Rights Reserved</span>
+                  <br>v3. Portfolio
+               </p>
+            </div>
+            <div class="social-links d-flex justify-content-center">
+               <a href="https://bbabiker.com/linkedin">
+               <i class="bi bi-linkedin"></i>
+               </a>
+               <a href="https://bbabiker.com/github">
+               <i class="bi bi-github"></i>
+               </a>
+               <a href="mailto:bbabiker09@gmail.com">
+               <i class="bi bi-inboxes-fill"></i>
+               </a>
+            </div>
+            <div class="signature text-center">
+               <img src="assets/img/Signature.png" alt="Signature" class="img-fluid">
+            </div>
+         </div>
+      </footer>
+      <!-- Scroll Top -->
+      <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
       <i class="bi bi-arrow-up-short"></i>
-    </a>
-    <!-- Preloader -->
-    <div id="preloader"></div>
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/typed.js/typed.umd.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Babiker Babiker",
-        "url": "https://bbabiker.com",
-        "sameAs": ["https://www.linkedin.com/in/babiker-babiker-15915b267/", "https://github.com/babikerbabiker"],
-        "jobTitle": "Software Engineering Fellow",
-        "worksFor": {
-          "@type": "Organization",
-          "name": "Headstarter AI"
-        }
-      }
-    </script>
-  </body>
+      </a>
+      <!-- Preloader -->
+      <div id="preloader"></div>
+      <!-- Vendor JS Files -->
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/vendor/php-email-form/validate.js"></script>
+      <script src="assets/vendor/aos/aos.js"></script>
+      <script src="assets/vendor/typed.js/typed.umd.js"></script>
+      <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+      <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+      <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+      <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <!-- Main JS File -->
+      <script src="assets/js/main.js"></script>
+      <script type="application/ld+json">
+         {
+           "@context": "https://schema.org",
+           "@type": "Person",
+           "name": "Babiker Babiker",
+           "url": "https://bbabiker.com",
+           "sameAs": ["https://www.linkedin.com/in/babiker-babiker-15915b267/", "https://github.com/babikerbabiker"],
+           "jobTitle": "Software Engineering Fellow",
+           "worksFor": {
+             "@type": "Organization",
+             "name": "Headstarter AI"
+           }
+         }
+      </script>
+   </body>
 </html>
