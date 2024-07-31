@@ -649,13 +649,30 @@ section {
 }
 
 .portfolio .portfolio-item {
-	position: relative
+	position: relative;
+	overflow: hidden;
 }
 
 .portfolio .portfolio-item img {
     width: 100%;
     height: 400px;
     object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.portfolio .portfolio-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.3s ease-in-out;
+}
+
+.portfolio .portfolio-item:hover::after {
+    background: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 768px) {
