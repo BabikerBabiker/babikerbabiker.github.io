@@ -415,10 +415,9 @@ h1,h2,h3,h4,h5,h6{
     text-align:left
 }
 .hero{
-    width:100%;
-    min-height:calc(100vh - 100px);
+    width:100vw;
+    min-height:calc(100vh - 75px);
     position:relative;
-    padding:60px 0;
     display:flex;
     align-items:center;
     justify-content:center;
