@@ -985,6 +985,18 @@ h1,h2,h3,h4,h5,h6{
     background-color: #53baff;
 }
 
+.react-native{
+    background-color: #8457f3;
+}
+
+.typescript{
+    background-color: #396ca6;
+}
+
+.expo{
+    background-color: #000000;
+}
+
 .gemini{
     background-color: #f84747;
 }
